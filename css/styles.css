@@ -1,0 +1,168 @@
+body{
+    font-family: "montserrat";
+
+}
+#title{
+       margin-top: 0px;
+    background-color:#ff4c68;
+    color:#fff;
+}
+h1{
+    font-family: "Montserrat-black";
+   font-size: 3.5rem;
+    line-height: 1.5;
+    /* color: white;  using in title*/
+    font-weight: bolder;
+}
+a{
+    font-family: "ubuntu";
+    font-weight: bolder;
+    font-size: larger;
+}
+.container-fluid{
+    padding:3% 15% ;
+    margin-top: 0px;
+}
+
+/* navigation bar */
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    font-family: "ubuntu";/* we link google font (see double quote)*/
+    font-size: 2.5rem;
+}
+.nav-item{
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+  font-family: "montserrat-light";
+}
+/* download button */
+/* .btn{
+    margin-top: 2rem;
+}   boot strap ki class use na krkr apni add krna bhtr hai lazy mt bano wrna kisi or jgha btn si kri to ye margin wha bhi lag jayga*/
+.dbutton{
+    margin: 5% 3% 5% 0%;                    /*top,left ,right, bottom*/
+}
+/* title image */
+.doggyimg{
+    width: 60%;
+    transform: rotate(25deg);/* for rotate a element*/
+}
+/* challenge */
+.cntr{
+    text-align: center;
+    padding: 5%;
+}
+h3{
+    font-family: "montserrat-bold";
+}
+p{
+    color: gray;
+}
+
+/* #Af{        
+    margin-top: 120px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 200px;
+} */
+/* .bgi{
+    margin-left: 5opx;
+    margin-right: 50px;
+    margin-bottom: 10px;
+} */
+.bgin{
+    color:#ef8172;
+    margin-bottom: 16px;
+}
+.bgin:hover{
+    color: red;
+}
+/* feature section */
+#features{
+     padding:7% 15%;     /* 7 for top and bottom 15 for left and right */
+}
+/* testimonial section*/
+#testimonials{
+              
+              text-align: center;
+              background-color:#ef8172 ;
+              color: white;
+}
+h2{
+    font-family: "montserrat-bold";
+    font-size: 3rem;
+    line-height: i.5;
+}
+/* .testimo-img{
+    width: 10%;
+    border-radius: 100%;  /*for round to a imge  
+    margin: 20px;
+}*/
+ .dimg{
+    /*width: 10%;*/
+    width: 2%;
+    border-radius: 100%;
+    margin: 20px;
+}
+/* .testimonial-image{
+    width: 50px;
+    border-radius: 100%;
+} */
+.ldyimg{
+    width: 2%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+/* press */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing  section*/
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricol{
+    padding: 3% 2%;
+}
+/* call to action */
+#cta{
+    background-color:#ff4c68;
+    text-align: center;
+    padding: 7% 22%;
+}
+#mp{
+    font-family: "montserrat-black";
+    color: white;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    
+ 
+}
+/* footer section */
+#footer{
+    text-align: center;
+    /*padding: 90px;*/
+    padding: 7% 15%;
+}
+.icon-shh{
+  /*margin: 0px 7px;    
+  margin-bottom: 5px;*/
+  margin: 20px 10px;
+}
